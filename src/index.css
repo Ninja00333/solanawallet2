@@ -1,0 +1,38 @@
+/* Στυλ για το κουμπί σύνδεσης */
+.connect-button-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-button {
+  font-size: 14px; /* Ρύθμιση μεγέθους γραμματοσειράς */
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex; /* Χρησιμοποιούμε flexbox για να τοποθετηθούν το κείμενο και η εικόνα σε σειρά */
+  align-items: center; /* Κεντράρισμα κάθετου περιεχομένου */
+}
+
+/* Στυλ για την εικόνα του Solana */
+.button-icon {
+  width: 20px; /* Μικρό μέγεθος εικόνας */
+  height: 20px; /* Μικρό μέγεθος εικόνας */
+  margin-right: 8px; /* Απόσταση μεταξύ εικόνας και κειμένου */
+}
+
+/* Προσθήκη hover εφέ στο κουμπί */
+.connect-button:hover {
+  background-color: #45a049;
+}
+
+/* Κεντράρισμα του τίτλου */
+h1 {
+  text-align: center;
+}
